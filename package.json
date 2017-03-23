@@ -1,0 +1,47 @@
+{
+  "name":  "madoos-functional-implementations",
+  "version": "0.0.1",
+  "description": "Functional implementations based on Ramda and the functional programming book of Michael Fogus",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test:linter:show && npm run test:unit:show",
+    "test:report": "npm run test:linter:report && npm run test:unit:report && npm run test:cover:report",
+    "test:linter:show": "./bin/test/linter-show",
+    "test:unit:show": "./bin/test/unit-show",
+    "test:cover:show": "./bin/test/cover-show",
+    "test:linter:report": "./bin/test/linter-report",
+    "test:unit:report": "./bin/test/unit-report",
+    "test:cover:report": "./bin/test/cover-report"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+git@github.com:madoos/functional-implementations.git"
+  },
+  
+  "keywords": [
+    "lib"
+  ],
+   "author": {
+    "name": "Maurice Dominguez",
+    "email": "maurice.ronet.dominguez@gmail.com",
+    "url": "https://github.com/madoos/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "git@github.com:madoos/functional-implementations.git/issues"
+  },
+  "homepage": "git@github.com:madoos/functional-implementations.git#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0",
+    "standard": "^8.6.0"
+  },
+
+  "standard":  {
+    "env": {
+      "node": true,
+      "mocha": true
+    }
+  }
+}
