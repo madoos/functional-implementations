@@ -1,5 +1,5 @@
 {
-  "name":  "madoos-functional-implementations",
+  "name": "madoos-functional-implementations",
   "version": "0.0.1",
   "description": "Functional implementations based on Ramda and the functional programming book of Michael Fogus",
   "main": "index.js",
@@ -17,11 +17,10 @@
     "type": "git",
     "url": "git+git@github.com:madoos/functional-implementations.git"
   },
-  
   "keywords": [
     "lib"
   ],
-   "author": {
+  "author": {
     "name": "Maurice Dominguez",
     "email": "maurice.ronet.dominguez@gmail.com",
     "url": "https://github.com/madoos/"
@@ -37,11 +36,13 @@
     "mocha": "^3.2.0",
     "standard": "^8.6.0"
   },
-
-  "standard":  {
+  "standard": {
     "env": {
       "node": true,
       "mocha": true
     }
+  },
+  "dependencies": {
+    "madoos-type": "0.0.6"
   }
 }
